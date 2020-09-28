@@ -7,7 +7,7 @@ It first warns and then alarms in case of CO2 level reaches a nonacceptable leve
 
 CO2 Levels are measured as PPM (Parts Per Million). The standard outdoor level is around 350ppm, and is the optimum level for freshness. However, it can get up to 600ppm indoor without any adverse affects. Once it gets past 600ppm people will start noticing adverse affects.
 
-The LED is GREEN when CO2  < 700ppm. It switches to BLUE when the level is < 1200ppm and finally it changes to red for the higher levels.
+The LED is GREEN when CO2  < 700ppm. It switches to BLUE when the level is < 1200ppm and finally it changes to red for the higher levels and starts playingback a song.
 
 # Circuit Schematic
 ![CIRCUIT_PHOTO](https://github.com/edorosh/co2-indoor-monitor/blob/master/resources/circuit.png)
@@ -38,7 +38,7 @@ New to Arduino? Check [this official HOWTO](https://www.arduino.cc/en/main/howto
 * Female PCB pins
 * Passive Buzzer 5v (12mm)
 * 2-way switch
-* Connecting wires
+* Connection wires
 * RGB LED with common Cathode
 * 4 digit 7 Segment Display TM1637
 * 220 Ohm Resistor x2
@@ -58,4 +58,5 @@ MIT License. Not for a commercial usage.
 * think about using platform.io
 * add settings description
 * add feature: blikning red
+* add feature: different PWN values per colour
 * add feature: repeating the melody
