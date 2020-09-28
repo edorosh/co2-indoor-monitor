@@ -9,6 +9,9 @@ CO2 Levels are measured as PPM (Parts Per Million). The standard outdoor level i
 
 The LED is GREEN when CO2  < 700ppm. It switches to BLUE when the level is < 1200ppm and finally it changes to red for the higher levels.
 
+# Circuit Schematic
+![CIRCUIT_PHOTO](https://github.com/edorosh/co2-indoor-monitor/blob/master/resources/circuit.png)
+
 # Upload Firmware
 New to Arduino? Check [this official HOWTO](https://www.arduino.cc/en/main/howto). Before uploading the sketch check if you have all requried libraries insalled. You may want to copy all of them inside `libraries` manually into %Home%/Arduino/libraries or install them all via "Manage Libraries" option.
 
@@ -52,7 +55,6 @@ I printed the parts with PETG material, 30% infill and 0.2mm layer height. PLA w
 MIT License. Not for a commercial usage.
 
 # TODO
-* add a circuit scheme
 * think about using platform.io
 * add settings description
 * add feature: blikning red
